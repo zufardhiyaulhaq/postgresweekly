@@ -26,7 +26,7 @@ export GITHUB_TOKEN="token"
 export GITHUB_ORGANIZATION="zufardhiyaulhaq"
 export GITHUB_REPOSITORY="community-ops"
 export GITHUB_REPOSITORY_PATH="./manifest/postgres-community/weekly/"
-export GITHUB_BRANCH="master"
+export GITHUB_BRANCH="main"
 
 export WEEKLY_COMMUNITY="Postgres Indonesia Community"
 export WEEKLY_TAGS="weekly,postgres"
