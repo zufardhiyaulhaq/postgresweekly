@@ -1,0 +1,21 @@
+{{ template "chart.header" . }}
+{{ template "chart.description" . }}
+
+{{ template "chart.versionBadge" . }}{{ template "chart.typeBadge" . }}{{ template "chart.appVersionBadge" . }}[![made with Go](https://img.shields.io/badge/made%20with-Go-brightgreen)](http://golang.org) [![Github master branch build](https://img.shields.io/github/workflow/status/zufardhiyaulhaq/postgresweekly/Master)](https://github.com/zufardhiyaulhaq/postgresweekly/actions/workflows/master.yml) [![GitHub issues](https://img.shields.io/github/issues/zufardhiyaulhaq/postgresweekly)](https://github.com/zufardhiyaulhaq/postgresweekly/issues) [![GitHub pull requests](https://img.shields.io/github/issues-pr/zufardhiyaulhaq/postgresweekly)](https://github.com/zufardhiyaulhaq/postgresweekly/pulls)
+
+## Installing the Chart
+
+To install the chart with the release name `my-postgresweekly` and secret `foo`:
+
+```console
+kubectl apply -f secret.yaml
+
+helm repo add postgresweekly https://zufardhiyaulhaq.com/postgresweekly/charts/releases/
+helm install my-postgresweekly postgresweekly/postgresweekly --values values.yaml
+```
+
+{{ template "chart.requirementsSection" . }}
+
+{{ template "chart.valuesSection" . }}
+
+{{ template "helm-docs.versionFooter" . }}
